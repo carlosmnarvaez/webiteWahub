@@ -1,0 +1,521 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif!important;
+}
+body{
+    background-image: url("/src/assets/bg-body.png");
+    background-size: 85%;
+}
+/*Header*/
+header {
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+header nav{
+    width: 100%;
+    margin: auto;
+}
+header nav img {
+    width: 220px;
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+/* Fin Header */
+
+input {
+    width: 100%;
+}
+
+.card-title{
+    color: red;
+}
+
+.vid {
+    height: 90vh;
+}  
+.vid video {
+  height: 100%;
+}
+img.wa-movil-mask {
+    width: 28%;
+    height: 111%;
+    position: absolute;
+    margin-left: -17px;
+    margin-top: -12px;
+}
+.col-lg-6.columna-02 {
+    padding-left: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-lg-6.columna-01 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Quienes-somos {
+    width: 100%;
+    margin-top: 10%;
+    background: #12a19a;
+    padding-bottom: 37%;
+}
+section.Quienes-somos img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    margin-top:-13%;
+}
+
+.section1 span {
+    top: 20px;
+    left: 42%;
+    transform: translate(-50%,6px);
+    height: 8px;
+    width: 73px;
+    background-color: #232323;
+    border-radius: 8px;
+    box-shadow: inset 0 -3px 3px 0 hsl(0deg 0% 100% / 20%);
+    z-index: 9;
+    position: absolute;
+}
+.section1 b {
+    left: 63%;
+    position: absolute;
+    z-index: 1;
+    top: 23px!important;
+}
+.section1 b:after {
+    content: "";
+    position: absolute;
+    background-color: #2d4d76;
+    width: 10px;
+    height: 10px;
+    top: 2px;
+    left: 0px;
+    top: 3px;
+    display: block;
+    border-radius: 4px;
+    box-shadow: inset 0 -2px 2px rgb(0 0 0 / 50%);
+}
+
+.wa-content-bg {
+    padding: 2px;
+    background: black;
+    border-radius: 30px;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    top: 0;
+}
+.wa-content-video {
+    width: 100%;
+    height: 596px!important;
+    position: relative;
+    margin: 5px auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 0 11px #1f1f1f,0 0 0 13px #191919,0 0 0 20px #111,0 24px 72px 24pxrgba(0,0,0,.25);
+    background: #141619;
+}
+
+.wa-content-video:before {
+    top: 0;
+    background-color: #1f1f1f;
+    border-radius: 40 40 40px 40px;
+}
+
+.wa-content-video video {
+    border-radius: 31px;
+}
+
+/*Left Banner*/
+h1.wa-title-h1 {
+    font-size: 2.2em;
+}
+h1.wa-title-h1 span {
+    font-weight: bold;
+}
+a.btn.wa-btnLeft-banner {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    padding: 16px 40px;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    text-align: left;
+    border-radius: 7px;
+    font-weight:500;
+    border: 2px solid;
+    color: #000;
+}
+a.btn.wa-btnLeft-banner:hover {
+    background-color: #00A19A;
+    border: 2px solid #00A19A;
+    color: #fff;
+}
+
+
+/*Formulario registrate*/
+.formulario {
+    width: 100%;
+    margin: auto;
+    margin-top: 0;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 4px 4px 9px 0px rgb(0 0 0 / 17%);
+    padding: 10%;
+}
+.box input {
+    width: 100%;
+    height: 58px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: #00A19A;
+    font-size: 16px;
+    padding-top: 24px;
+}
+.box button {
+    background-color: #00A19A;
+    border: 0px;
+    padding: 14px 40px;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    border-radius: 7px
+}
+.box button:hover {
+    background-color: #005e59;
+}
+input#check {
+    width: 6%;
+    float: left;
+}
+.box p {
+    width: 100%;
+    font-size: 10px;
+    position: relative;
+    top: 17px;
+    left: 10px;
+}
+.box h2 {
+    text-align: center;
+    font-size: 29px;
+}
+.box h2 span {
+    font-weight: bold;
+}
+input:focus-visible {
+    outline: none;
+    border-bottom: 2px solid #00a19a!important;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: #333;
+}
+
+input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0 50px white inset;
+    -webkit-text-fill-color: #333;
+}  
+
+
+/*seccion quienes somos*/
+.container.section2 {
+    position: relative;
+    top: 260px;
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+h2.wa-title-solicite {
+    text-align: center;
+    color: #fff;
+    font-size: 37px;
+    font-weight: bold;
+}
+.col-lg-21.section-tutorial-movil {
+    padding-top: 8%;
+}
+.container.item-left-rigth {
+    position: relative;
+    top: 110px;
+}
+.Quienes-somos .col-lg-4 .col-lg-12 {
+    height: 200px;
+}
+.container.item-left-rigth .wa-title-left-rigth {
+    padding-bottom: 12%;
+    color: #fff;
+    text-align: left;
+    width: 60%;
+    font-size: 50px;
+    font-weight: 600;
+}
+.container.item-left-rigth h6 {
+    color: #fff;
+}
+.container.item-left-rigth .feature svg {
+    font-size: 48px;
+    margin-bottom: 22px;
+    color: #ffffff;
+    background: #085c58;
+    padding: 8px;
+    border-radius: 4px;
+}
+.container.item-left-rigth h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+.container.item-left-rigth p {
+    font-size: 15px;
+}
+.item-left-rigth .col-lg-4.text-white {
+    padding-bottom: 43px;
+}
+.btn-prueba-gratis {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+}
+a.btn.wa-btn-prueba-gratis {
+    border: 0px;
+    padding: 14px 40px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 7px;
+}
+a.btn.wa-btn-prueba-gratis:hover {
+    border: 1px solid #fff;
+    color: #000;
+    background-color: #ffffff;
+}
+.btn-gratis-dos {
+    background: black!important;
+    border: 1px solid #000!important;
+    position: relative;
+    top:26px;
+    font-size: 21px!important;
+}
+.btn-gratis-dos:hover {
+    color: #fff!important;
+    background: none!important;
+    border:1px solid #fff!important;
+}
+h2.wa-title-solicite {
+    text-align: left;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/*Testimonios*/
+.col-lg-12.wa-title-section3 h2 {
+    width: 60%;
+    font-size: 50px;
+}
+.col-lg-12.wa-title-section3 {
+    margin-top: 160px;
+    margin-bottom: 70px;
+}
+
+/*Footer*/
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 9%;
+}
+footer a {
+    text-decoration: none;
+    color: #fff!important;
+}
+
+footer p {
+    color: #fff;
+}
+img.logo-footer {
+    width: 156px;
+}
+a.nav-link.px-2 {
+    font-size: 12px;
+}
+@media (max-width:600px) {
+    
+    a.btn.wa-btnLeft-banner {
+        width: 90%;
+        margin: auto;
+        padding: 16px 14px;
+        text-align: center;
+    }
+    h1.wa-title-h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    p.wa-texto-p {
+        text-align: center;
+    }
+    .col-lg-6.columna-02 {
+        padding-left: 8%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .Quienes-somos {
+        width: 100%;
+        margin-top: 0;
+        background: #12a19a;
+    }
+    section.Quienes-somos img {
+        display: none;
+    }
+    .Quienes-somos .col-lg-4 .col-lg-12 {
+        height: 280px;
+    }
+    .wa-content-bg {
+        width: 90%;
+        margin-bottom: 100px;
+    }
+    section.Quienes-somos img {
+        display: none;
+    }
+    .Quienes-somos {
+        width: 100%;
+        margin-top: 0;
+        background: #12a19a;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .container.section2 {
+        position: relative;
+        top: 0;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 98%;
+        padding: 39px;
+    }
+    h2.wa-title-solicite {
+        text-align: center;
+        color: #fff;
+        font-size: 33px;
+        font-weight: bold;
+    }
+    .btn-gratis-dos {
+        top: 10px;
+        font-size: 12px!important;
+    }
+    a.btn.wa-btn-prueba-gratis {
+        padding: 14px 6px;
+    }
+    .item-left-rigth .feature {
+        text-align: center;
+    }
+    .container.item-left-rigth {
+        position: relative;
+        top: 0px;
+    }
+    .container.item-left-rigth .wa-title-left-rigth {
+        text-align: center;
+        padding-bottom: 10%;
+        color: #fff;
+        font-size: 25px;
+        width: 100%;
+    }
+    .container.item-left-rigth h6 {
+        text-align: center;
+    }
+    .container.item-left-rigth h2 {
+        text-align: center;
+    }
+    .container.item-left-rigth p {
+        text-align: center;
+    }
+    .container.item-left-rigth .feature svg {
+        font-size: 75px;
+        margin-bottom: 22px;
+        color: #ffffff;
+        background: #085c58;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    .btn-prueba-gratis {
+        width: 100%;
+        margin-top: 5px;
+    }
+    .col-lg-12.wa-title-section3 h2 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .col-lg-12.wa-title-section3 h6 {
+        text-align: center;
+    }
+    .col-lg-12.wa-title-section3 .wa-btnLeft-banner {
+        width: 100%;
+    }
+    .container.section3 .col-lg-12 {
+        width: 90%;
+        margin: auto;
+        padding-top: 15%;
+        padding-bottom: 15%;
+    }
+    .container.section3 .col-lg-4 {
+        width: 90%;
+        margin: auto;
+    }
+    footer p {
+        width: 100%;
+        text-align: center;
+    }
+    footer a {
+        width: 100%;
+        margin-top: 15px;
+    }
+    footer {
+        width: 100%;
+        text-align: center;
+    }
+    a.nav-link.px-2 {
+        font-size: 10px;
+    }
+    .wa-content-video {
+        height: 535px!important;
+    }
+    
+}
